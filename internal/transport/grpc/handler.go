@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/Raphael-Jin/Go-gRPC-Services/internal/rocket"
-	rkt "github.com/Raphael-Jin/Go-gRPC-Services/internal/rocket/v1"
+	rkt "github.com/Raphael-Jin/Go-gRPC-Services/protos/rocket/v1"
 	"google.golang.org/grpc"
 )
 
