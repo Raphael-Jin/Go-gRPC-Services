@@ -1,4 +1,5 @@
-drop table schema_migrations;
 CREATE TABLE rockets IF NOT EXISTS(
-    ID int
+    id serial NOT NULL PRIMARY KEY,
+    type varchar (50),
+    name varchar (50)
 );

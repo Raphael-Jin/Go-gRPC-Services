@@ -19,19 +19,19 @@ message GetRocketRequest{
 }
 
 message GetRocketResponse{
-    Rocket Rocket = 1;
+    Rocket rocket = 1;
 }
 
 message AddRocketRequest{
-    string id = 1;
+    Rocket rocket = 1;
 }
 
 message AddRocketResponse{
-    Rocket Rocket = 1;
+    Rocket rocket = 1;
 }
 
 message DeleteRocketRequest{
-    string id = 1;
+    Rocket rocket = 1;
 }
 
 message DeleteRocketResponse{
